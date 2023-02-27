@@ -1,0 +1,4 @@
+.config/nvim/init.vim -> nvim/init.vim
+.config/nvim/maps.vim -> nvim/maps.vim
+.config/nvim/plugins.vim -> nvim/plugins.vim
+.bash_aliases -> bash/.bash_aliases

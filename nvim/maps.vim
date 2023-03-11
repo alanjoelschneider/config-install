@@ -61,6 +61,6 @@ nnoremap <leader>. 10<C-w>-
 nnoremap <leader>> 10<C-w>>
 nnoremap <leader>, 10<C-w>+
 
-" Speed up cursor
-nnoremap <leader>d 10j
-nnoremap <leader>u 10k
+" Speed up scrolling
+nnoremap <C-j> 10<C-e>
+nnoremap <C-k> 10<C-y>

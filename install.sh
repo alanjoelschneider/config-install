@@ -4,7 +4,7 @@ config_dir=config-install
 list=~/$config_dir/.list
 
 function create_dir() {
-  mkdir -p -- $(dirname "$1")
+	mkdir -p -- $(dirname "$1")
 }
 
 # Before to read lines of list expand home directory by replacing it
@@ -12,11 +12,11 @@ function create_dir() {
 # changed by another than '/'. i.e: '|', '#'
 sed "s|~|$HOME|g" $list | while read line
 do
-  target=$(echo $line | awk -F ' -> ' '{printf $2}')
-  link_name=$(echo $line | awk -F ' -> ' '{printf $1}')
+	target=$(echo $line | awk -F ' -> ' '{printf $2}')
+	link_name=$(echo $line | awk -F ' -> ' '{printf $1}')
 
-  create_dir $link_name
-  ln -s "$HOME/$config_dir/$target" "$link_name" &> /dev/null
+	create_dir $link_name
+	ln -s "$HOME/$config_dir/$target" "$link_name" &> /dev/null
 
 	if [ $? ]
 	then

@@ -4,3 +4,4 @@
 ~/.config/nvim/commands.vim -> nvim/commands.vim
 ~/.config/nvim/functions.vim -> nvim/functions.vim
 ~/.bash_aliases -> bash/.bash_aliases
+~/.editorconfig -> editor/.editorconfig

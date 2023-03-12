@@ -12,14 +12,13 @@ set ignorecase
 set smartcase
 
 if &compatible
-	set nocompatible
+    set nocompatible
 endif
 
 let g:polyglot_disabled = ['autoindent']
 let g:onedark_config = { 'style': 'cool', 'ending_tildes': v:true }
 
 so ~/.config/nvim/plugins.vim
-"so ~/.vim/ownplugins/comment.vim
 so ~/.config/nvim/commands.vim
 so ~/.config/nvim/functions.vim
 so ~/.config/nvim/maps.vim

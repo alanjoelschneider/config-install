@@ -1,10 +1,10 @@
 call plug#begin('~/.vim/plugged')
-  Plug 'navarasu/onedark.nvim'
-  Plug 'sheerun/vim-polyglot'
-  Plug 'vim-airline/vim-airline'
-	Plug 'jiangmiao/auto-pairs'
-  Plug 'yggdroot/indentline'
-	Plug 'preservim/nerdtree'
-	Plug 'mg979/vim-visual-multi'
-	Plug 'editorconfig/editorconfig-vim'
+Plug 'navarasu/onedark.nvim'
+Plug 'sheerun/vim-polyglot'
+Plug 'vim-airline/vim-airline'
+Plug 'jiangmiao/auto-pairs'
+Plug 'yggdroot/indentline'
+Plug 'preservim/nerdtree'
+Plug 'mg979/vim-visual-multi'
+Plug 'gpanders/editorconfig.nvim'
 call plug#end()

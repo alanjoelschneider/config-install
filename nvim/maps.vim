@@ -6,7 +6,7 @@ nnoremap <silent> <C-_> :call ToggleComment()<CR>
 
 " Move actual line. j moves down, k moves up
 " TODO: max top and bottom lines
-nnoremap <C-j> ddp 
+nnoremap <C-j> ddp
 nnoremap <C-k> ddkP
 
 " Copy actual line. j copies down, k copies up
@@ -49,7 +49,7 @@ nnoremap <C-A-l> xEp
 nnoremap <C-h> xhP
 nnoremap <C-A-h> xhBP
 
-" Inserts a semicolon (;) to the end of actual line 
+" Inserts a semicolon (;) to the end of actual line
 nnoremap <leader>; $a;<ESC>j
 
 " Reloads nvim configuration
